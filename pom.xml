@@ -40,7 +40,7 @@
             <artifactId>tomcat9-maven-plugin</artifactId>
             <version>2.2</version>
                 <configuration>
-                    <url>http://localhost:8080/manager/text</url>
+                    <url>http://localhost:9000/manager/text</url>
                     <username>admin</username>
                     <password>admin</password>
                 </configuration>
@@ -73,19 +73,19 @@
     <repositories>
         <repository>
             <configuration>
-                <url>http://localhost:8080/manager/</url>
+                <url>http://localhost:9000/manager/</url>
                 <username>admin</username>
-                <password>password</password>
+                <password>admin</password>
             </configuration>
             <id>myMavenRepo.read</id>
-            <url>http://localhost:8080/manager/</url>
+            <url>http://localhost:9000/manager/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
-            <url>http://localhost:8080/manager/</url>
+            <url>http://localhost:9000/manager/</url>
         </repository>
     </distributionManagement>
 </project>
