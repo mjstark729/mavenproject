@@ -70,7 +70,7 @@
     </dependencies>
     <!-- <packaging>war</packaging>  -->
 
-<!--    <repositories>
+      <repositories>
         <repository>
             <configuration>
                 <url>http://localhost:9000/manager/</url>
@@ -81,7 +81,7 @@
             <url>http://localhost:9000/manager/</url>
         </repository>
     </repositories>
--->
+
     <distributionManagement>
         <repository>
             <id>myMavenRepo.write</id>
