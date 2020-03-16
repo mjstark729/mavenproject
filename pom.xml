@@ -76,7 +76,7 @@
                 <url>http://localhost:9000/manager/text</url>
                 <username>admin</username>
                 <password>admin</password>
-                </configuration>
+            </configuration>
             <id>myMavenRepo.read</id>
             <url>http://localhost:9000/manager/</url>
         </repository>
