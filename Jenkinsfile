@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools 
     { 
-        maven 'maven' 
+        maven 'M3' 
     }
     stages
     
@@ -11,7 +11,7 @@ pipeline {
         {
             steps 
             {
-                git credentialsId: 'f017161e-31e0-45df-bafe-9afa4c3903ef', url: 'https://github.com/venkatarajv/mavenproject.git'
+                git credentialsId: 'f017161e-31e0-45df-bafe-9afa4c3903ef', url: 'https://github.com/mjstark729/mavenproject.git'
             }
         }
         stage ('compile stage') 
