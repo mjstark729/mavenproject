@@ -73,7 +73,7 @@
     <repositories>
         <repository>
             <configuration>
-                <url>http://localhost:9000/manager/text</url>
+                <url>http://localhost:9000/manager/</url>
                 <username>admin</username>
                 <password>admin</password>
             </configuration>
